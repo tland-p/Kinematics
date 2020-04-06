@@ -7,6 +7,7 @@ import scipy
 from calc_modules.thumb_inverse_kinematics import thumb_inverse_kinematics
 from calc_modules.make_matrix import MakeMatrix
 from forward_kinematics import ForwardKinematics
+from data_import import
 
 if __name__ == '__main__':
     # Forward Kinematics (target is fk_position[1]), and link_vec use link_vec[0] and link_vec[1]

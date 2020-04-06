@@ -39,11 +39,11 @@ class JointAngles:
         self.LFJ_SET_DEG = [LFJ3_deg_y, LFJ3_deg_x, LFJ2_deg_x, LFJ1_deg_x]
 
         # THJ
-        THJ3_deg_z = -30
+        THJ3_deg_z = 0
         THJ3_deg_x = 0
         THJ2_deg_x = 0
         THJ2_deg_y = 0
-        THJ1_deg_y = 0
+        THJ1_deg_y = 45
 
         self.THJ_SET_DEG = [THJ3_deg_z, THJ3_deg_x, THJ2_deg_x, THJ2_deg_y, THJ1_deg_y]
 
