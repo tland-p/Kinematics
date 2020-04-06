@@ -11,11 +11,11 @@ def data_tp():
         # data = [v.rstrip().stlip(delimiter) for v in f.readlines()]
         # data = f.read().split('\r\n')
         data_file = f.read().split()
-        print(data_file)
+        # print(data_file)
         data = np.array(data_file).reshape(-1, 10)
 
 
-        print(data[0,0])
+        # print(data[0,0])
 
     # print(datalist[0])
     f.close()

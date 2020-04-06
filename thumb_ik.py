@@ -7,10 +7,26 @@ import scipy
 from calc_modules.thumb_inverse_kinematics import thumb_inverse_kinematics
 from calc_modules.make_matrix import MakeMatrix
 from forward_kinematics import ForwardKinematics
-from data_import import
+from data_import import data_tp
 
 if __name__ == '__main__':
     # Forward Kinematics (target is fk_position[1]), and link_vec use link_vec[0] and link_vec[1]
+    data = data_tp()
+    # print(data)
+    '''
+    1 = 原点
+    2 = スタイラス
+    3 = 手の甲
+    4 = x
+    5 = x
+    6 = 第一中手骨
+    7 = 基節骨
+    8 = 末節骨
+    '''
+    for i in data:
+        if data[i,2] == '02':
+            base = [data]
+
     fk = ForwardKinematics()
     link_vec, fk_position, fk_main_vec, fk_sub_xvec, fk_sub_yvec = fk.forward_kinematics()
     link_vec.pop()
