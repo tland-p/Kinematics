@@ -40,9 +40,9 @@ class JointAngles:
 
         # THJ
         THJ3_deg_z = 0
-        THJ3_deg_x = 0
+        THJ3_deg_x = 15
         THJ2_deg_x = 0
-        THJ2_deg_y = 0
+        THJ2_deg_y = 20
         THJ1_deg_y = 45
 
         self.THJ_SET_DEG = [THJ3_deg_z, THJ3_deg_x, THJ2_deg_x, THJ2_deg_y, THJ1_deg_y]
